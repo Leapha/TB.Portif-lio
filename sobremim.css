@@ -1,0 +1,80 @@
+body{
+    background-color: darkgray;
+}
+.cabecalho {
+    position: fixed;
+    display: inline-block;
+    top: 0;
+    left: 0;
+    background-color: black;
+    margin: 0;
+    height: 90px;
+    width: 100%;
+    
+ 
+ }
+ 
+ #menu {
+ 
+     position: fixed;
+     top: 2px;
+     left: 15px;
+     display: flex;
+     height: 90px;
+ 
+ }
+ 
+ .listaMenu {
+ 
+     display: block;
+     text-align: center;
+     top: 9px;
+     position: relative;
+     text-transform: uppercase;
+     transition: 0.5s;
+     font-family: 'Courier New', Courier, monospace;
+     font-size: 25px;
+     
+    
+ }
+ 
+ .listaMenu li {
+ 
+     display: inline-block;
+     margin-right: 90px;
+     text-decoration: none;
+     
+ }
+
+ ul li a{
+    color: #fff;
+    text-decoration: none;
+}
+ 
+ /* inicio da  animação do menu */ 
+ 
+ ul:hover li a {
+ 
+     transform: scale(1.5);
+     opacity: 0.5;
+     filter: blur(1px);
+     text-decoration: none;
+ 
+ }
+ 
+ ul li a:hover {
+ 
+     transform: scale(2);
+     opacity: 1;
+     filter:blur(0);
+     color:#fff;
+     text-decoration: none;
+ 
+ 
+ }
+ /* final da animação menu*/
+
+ .eufoto {
+
+
+ }
