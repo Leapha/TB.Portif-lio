@@ -1,140 +1,200 @@
 body{
 
-    background-color: darkgray;
+   background-color: darkgray;
 }
 
 .cabecalho {
-    position: fixed;
-    display: inline-block;
-    top: 0;
-    left: 0;
-    background-color: black;
-    margin: 0;
-    height: 90px;
-    width: 100%;
-    
- 
- }
- 
- #menu {
- 
-     position: fixed;
-     top: 2px;
-     left: 15px;
-     display: flex;
-     height: 90px;
- 
- }
- 
- .listaMenu {
- 
-     display: block;
-     text-align: center;
-     top: 9px;
-     position: relative;
-     text-transform: uppercase;
-     transition: 0.5s;
-     font-family: 'Courier New', Courier, monospace;
-     font-size: 25px;
-     
-    
- }
- 
- .listaMenu li {
- 
-     display: inline-block;
-     margin-right: 90px;
-     text-decoration: none;
-     
- }
+   position: fixed;
+   display: inline-block;
+   top: 0;
+   left: 0;
+   background-color: black;
+   margin: 0;
+   height: 90px;
+   width: 100%;
 
- ul li a{
-    color: #fff;
-    text-decoration: none;
+
 }
- 
- /* inicio da  animação do menu */ 
- 
- ul:hover li a {
- 
-     transform: scale(1.5);
-     opacity: 0.5;
-     filter: blur(1px);
-     text-decoration: none;
- 
- }
- 
- ul li a:hover {
- 
-     transform: scale(2);
-     opacity: 1;
-     filter:blur(0);
-     color:#fff;
-     text-decoration: none;
- 
- 
- }
- /* final da animação menu*/
+
+#menu {
+
+   position: fixed;
+   top: 2px;
+   left: 15px;
+   display: flex;
+   height: 90px;
+
+}
+
+.listaMenu {
+
+   display: block;
+   text-align: center;
+   top: 9px;
+   position: relative;
+   text-transform: uppercase;
+   transition: 0.5s;
+   font-family: 'Courier New', Courier, monospace;
+   font-size: 25px;
+   
+
+}
+
+.listaMenu li {
+
+   display: inline-block;
+   margin-right: 90px;
+   text-decoration: none;
+   
+}
+
+ul li a{
+   color: #fff;
+   text-decoration: none;
+}
+
+/* inicio da  animação do menu */ 
+
+ul:hover li a {
+
+   transform: scale(1.5);
+   opacity: 0.5;
+   filter: blur(1px);
+   text-decoration: none;
+
+}
+
+ul li a:hover {
+
+   transform: scale(2);
+   opacity: 1;
+   filter:blur(0);
+   color:#fff;
+   text-decoration: none;
 
 
+}
+/* final da animação menu*/
 
- .Btn {
-    top: 220px;
-    left: 150px;
-    width: 45px;
-    height: 45px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border: none;
-    background-color: transparent;
-    position: relative;
-    /* overflow: hidden; */
-    border-radius: 7px;
-    cursor: pointer;
-    transition: all .3s;
-  }
-  
-  .svgContainer {
-    position: absolute;
-    top: 220px;
-    left: 150px;
-    width: 80px;
-    height: 80px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: transparent;
-    backdrop-filter: blur(0px);
-    letter-spacing: 0.8px;
-    border-radius: 10px;
-    transition: all .3s;
-    border: 1px solid rgba(156, 156, 156, 0.466);
-  }
-  
-  .BG {
-    top: 220px;
-    left: 150px;
-    position: absolute;
-    width: 80px;
-    height: 80px;
-    background: #181818;
-    z-index: -1;
-    border-radius: 10%;
-    pointer-events: none;
-    transition: all .3s;
-    
-  }
-  
-  .Btn:hover .BG {
+.titulo{
+   
+   width: 500px;
+   height: auto;
+   top: 150px;
+   left: 455px;
+   text-align: center;
+   align-items: center;
+   justify-content: center;
+   position: relative;
+   font-family: 'Courier New', Courier, monospace;
+   background-color: rgb(100, 98, 98);
+   border-radius: 10px;
+   font-size: 20px;
+}
 
-    transform: rotate(35deg);
-    transform-origin: bottom;
-    
-  }
-  
-  .Btn:hover .svgContainer {
-    background-color: rgba(156, 156, 156, 0.466);
-    backdrop-filter: blur(4px);
-  }
-  
+
+.caixaContato{
+
+   width:85%;
+   height: 200px;
+   top:  200px;
+   left: 190px; 
+   align-items: center;
+   position: relative;
+   background-color: transparent;
+
+   
+
+}
+
+.contato {
+
+   width:  90px;
+   height: 90px;
+   display: inline-block;
+   align-items: center;
+   justify-content:space-between;
+   margin-right: 100px;
+   position: relative;
+   background-color: transparent;
+   backdrop-filter: blur(0px);
+   border-radius: 30px;
+   transition: all .3s;
+   border: 1px solid rgb(156, 156, 156, 0.466);
+
+}
+
+.BT  {
+
+   top: 0;
+   left: 0;
+   position: absolute;
+   width: 90px;
+   height: 90px;
+   border-radius: 30px;
+   pointer-events: none;
+   background: #0c0c0c;
+   z-index: -1;
+   transition: all .3s;
+
+}
+
+.contato:hover .BT {
+
+   transform: rotate(45deg);
+   transform-origin: bottom;
+}
+
+.contato:hover {
+
+   background-color: rgba(156, 156, 156, 0.897);
+   backdrop-filter: blur(4px);
+}
+
+.contato img  {
+
+   width: 40px;
+   height:  auto;
+
+}
+
+.form{
+
+   top: 200px;
+   width: 500px;
+   height: 200px;
+   display: flex;
+   position: relative;
+   margin: auto;
+   padding: 20px;
+   background-color: black;
+   border-radius: 10px;
+
+}
+#message {
+
+   top: 20px;
+   right: 20px;
+   font-family: 'Roboto', sans-serif;
+   color: white;
+   text-align: center;
+   padding: 10px;
+   position: absolute;
+   display: inline-block;
+   resize: none;
+   box-shadow: inset 0 0 10px rgba(0,0,0,.5), 0 0 20px rgba(0,0,0,.5) ;
+   border-radius: 5px;
+   z-index: 1;
+
+}
+
+button[type=submit] {
+
+   
+   top: 190px;
+   position: absolute;
+   justify-content: center;
+   
+   
+
+}

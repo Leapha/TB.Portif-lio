@@ -36,45 +36,100 @@ body{
      font-size: 25px;
      
     
- }
- 
- .listaMenu li {
- 
-     display: inline-block;
-     margin-right: 90px;
-     text-decoration: none;
-     
- }
+}
 
- ul li a{
+.listaMenu li {
+
+    display: inline-block;
+    margin-right: 90px;
+    text-decoration: none;
+
+}
+
+ul li a{
     color: #fff;
     text-decoration: none;
 }
- 
- /* inicio da  animação do menu */ 
- 
- ul:hover li a {
- 
-     transform: scale(1.5);
-     opacity: 0.5;
-     filter: blur(1px);
-     text-decoration: none;
- 
- }
- 
- ul li a:hover {
- 
-     transform: scale(2);
-     opacity: 1;
-     filter:blur(0);
-     color:#fff;
-     text-decoration: none;
- 
- 
- }
- /* final da animação menu*/
 
- .eufoto {
+            /* inicio da  animação do menu */ 
+
+ul:hover li a {
+
+    transform: scale(1.5);
+    opacity: 0.5;
+    filter: blur(1px);
+    text-decoration: none;
+
+}
+
+ul li a:hover {
+
+    transform: scale(2);
+    opacity: 1;
+    filter:blur(0);
+    color:#fff;
+    text-decoration: none;
+
+}
+            /* final da animação menu*/
 
 
- }
+.container {
+    top: 200px;
+    left: 90px;
+    position: fixed;
+    width: 400px;
+    height: 500px;
+    border-radius: 10px;
+    border-radius: 10px;
+    backdrop-filter: blur(55px);
+    padding: 0%;
+}
+
+#fotoPerfil {
+
+    width: 200px;
+    height: 250px;
+    border-radius: 5px;
+    padding: 0%;
+    margin: 0%;
+
+}
+
+#fotoperfil {
+
+    top: 250px;
+    width: 200px;
+    height: 250px;
+    border-radius: 5px;
+    position: fixed;
+    padding: 0%;
+    margin: 0%;
+    left: 200px;
+
+}
+
+
+.priparagrafo {
+
+    top: 200px;
+    left: 320px;
+    position: fixed;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+
+
+}
+
+.segparagrafo {
+    top:  430px;
+    left: 520px;
+    position: fixed;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+p::first-letter{
+
+    font-size: 32px;
+}
