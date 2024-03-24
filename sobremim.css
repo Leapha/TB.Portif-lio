@@ -11,30 +11,30 @@ body{
     height: 90px;
     width: 100%;
     
- 
- }
- 
- #menu {
- 
-     position: fixed;
-     top: 2px;
-     left: 15px;
-     display: flex;
-     height: 90px;
- 
- }
- 
- .listaMenu {
- 
-     display: block;
-     text-align: center;
-     top: 9px;
-     position: relative;
-     text-transform: uppercase;
-     transition: 0.5s;
-     font-family: 'Courier New', Courier, monospace;
-     font-size: 25px;
-     
+
+}
+
+#menu {
+
+    position: fixed;
+    top: 2px;
+    left: 15px;
+    display: flex;
+    height: 90px;
+
+}
+
+.listaMenu {
+
+    display: block;
+    text-align: center;
+    top: 9px;
+    position: relative;
+    text-transform: uppercase;
+    transition: 0.5s;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 25px;
+
     
 }
 
